@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Request
 from onboarding import handle_onboarding
 from telegram import send_message
-import asyncio
 
 app = FastAPI()
 
